@@ -30,11 +30,11 @@ class Person
     end
 
     def happy?
-        @happiness > 7 ? true : false
+        @happiness > 7 
     end
 
     def clean?
-        @hygiene > 7 ? true : false
+        @hygiene > 7 
     end
 
     def get_paid(salary)
